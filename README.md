@@ -19,5 +19,24 @@ Install Amass from [Nuclei Github page](https://github.com/projectdiscovery/nucl
 
 ## Install Mazy
 ```
-git clone 
+git clone mohammad228/mazy 
 ```
+# Usage
+```
+python mazy -h 
+```
+```
+usage: mazy.py [-h] [-d DOMAIN] [-l DOMAINSLIST] [-w WORDLIST] [-nsd NO_SUBDOMAIN]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -d DOMAIN, --domain DOMAIN
+                        set domain
+  -l DOMAINSLIST, --domainslist DOMAINSLIST
+                        path list of domain
+  -w WORDLIST, --wordlist WORDLIST
+                        path of wordlist for content discovery
+  -nsd NO_SUBDOMAIN, --no_subdomain NO_SUBDOMAIN
+                        no subdomain scan just this domain scan
+```
+
