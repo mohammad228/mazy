@@ -5,3 +5,4 @@ You can use it for automation scan and include Asset and Content Discovery, Port
 # How to install
 ## Requirement 
 ###### Install Amass
+Install Amass from [Amass Github page](https://github.com/OWASP/Amass/releases)
